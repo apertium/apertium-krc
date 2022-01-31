@@ -72,8 +72,11 @@ Multichar_Symbols
 %<prc_perf%>            ! -Iб
 %<prc_impf%>            ! -E
 %<ger_past%>            ! -GAн
+%<ger_pres%>            ! -учу
 %<ger_aor%>             ! -Iр
 %<ger%>                 ! -у
+%<gpr_pres%>            ! -учу
+%<gpr_past%>            ! -GAн
 
 %<guio%>
 %<lpar%>
@@ -9457,6 +9460,7 @@ LEXICON Verbs
 къутул:къутул V-IV ; ! "спасаться" ! Inf/къутулургъа		
 къууандыр:къууандыр V-TV ; ! "радовать" ! Inf/къууандырыргъа	
 къыйнал:къыйнал V-IV ; ! "затрудняться" ! Inf/къыйналыргъа		
+къыйна:къыйна V-IV ; ! "suffer"
 къыр:къыр V-TV ; ! "уничтожать" ! Inf/къырыргъа		
 къыз:къыз V-TV-AR ; ! "греться" "get warm" ! Inf/къызаргъа		
 оз:оз V-TV-AR ; ! "обгонять" ! Inf/озаргъа
@@ -9720,6 +9724,7 @@ LEXICON Verbs
 къабыл% эт:къабыл% эт V-TV-AR ; ! "утвердить"
 эткиле:эткиле V-TV ; ! ""
 тёле:тёле V-TV ; ! ""
+ийнан:ийнан V-IV ; ! "believe"
 
 LEXICON Interjections 
 
