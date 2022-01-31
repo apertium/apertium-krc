@@ -45,6 +45,7 @@ Multichar_Symbols
 
 %<pers%>
 %<qnt%>
+%<neg%>
 
 %<subst%>
 %<attr%>
