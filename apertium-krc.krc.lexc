@@ -43,6 +43,8 @@ Multichar_Symbols
 %<tv%>
 %<iv%>
 
+%<pers%>
+
 %<subst%>
 %<attr%>
 
@@ -2861,6 +2863,7 @@ LEXICON Nouns
 инфляция:инфляция N1 ; ! "" ! Loan/rus 
 таможня:таможня N1 ; ! "" ! Loan/rus 
 статья:статья N1 ; ! "" ! Loan/rus 
+синагога:синагога N1 ; ! "synagogue" ! Loan/rus
 
 
 чууут:чууут N1 ; ! ""
