@@ -70,6 +70,7 @@ Multichar_Symbols
 %<imp%>
 %<ifi%>
 %<opt%>
+%<fut2%>
 
 %<p1%>
 %<p2%>
@@ -84,6 +85,8 @@ Multichar_Symbols
 %<ger%>                 ! -у
 %<gpr_pres%>            ! -учу
 %<gpr_past%>            ! -GAн
+%<gpr_fut%>             ! -Iр
+%<gpr_fut2%>            ! -RIK
 
 %<guio%>
 %<lpar%>
