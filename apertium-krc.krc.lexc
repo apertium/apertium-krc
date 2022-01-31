@@ -695,6 +695,7 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<gna_until%>:%>%{G%}%{ъ%}%{A%}нч%{A%} # ; 
 
 %<opt%>%<p3%>%<sg%>:%>с%{I%}н CLITICS-NO-COP ;
+%<opt%>%<p1%>%<sg%>:%>%{A%}й%{I%}м CLITICS-NO-COP ;
 
 %<imp%>%<p2%>%<sg%>: CLITICS-NO-COP ;
 %<imp%>%<p2%>%<pl%>:%{I%}г%{ъ%}%{I%}з CLITICS-NO-COP ;
@@ -1039,9 +1040,9 @@ LEXICON Numerals
 дууардыс:дууардыс NUM-FULL ; ! ""
 
 
-жюз:джюз NUM-FULL ; ! "hundred"
-жюз:жюз NUM-FULL ; ! "hundred" ! Dir/LR ! Use/Sub
-жюз:жюз NUM-FULL ; ! "" ! Dir/LR ! Use/Sub
+джюз:джюз NUM-FULL ; ! "hundred"
+джюз:жюз NUM-FULL ; ! "hundred" ! Dir/LR ! Use/Sub
+джюз:жюз NUM-FULL ; ! "" ! Dir/LR ! Use/Sub
 минг:минг NUM-FULL ; ! "" ! FIXME: Can this be used Attr without -lIk ?
 
 миллион:миллион NUM-FULL ; ! ""
