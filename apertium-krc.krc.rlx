@@ -3,6 +3,13 @@ DELIMITERS = "<.>" ;
 
 # We can define sets for common tag clusters
 LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
+LIST Nom = nom ;
+LIST Gen = gen ;
+LIST Dat = dat ;
+LIST Acc = acc ;
+LIST Abl = abl ;
+LIST Loc = loc ;
+
 
 SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
@@ -10,6 +17,12 @@ REMOVE (n) OR (v) IF (1 (n s)) ;
 
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
 SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
+
+# If the next form is px3sp, then N is probably gen and not acc
+REMOVE Acc IF
+       (0 Gen)
+       (1 (px3sp))
+;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
