@@ -3,8 +3,9 @@
 Multichar_Symbols
 
 %<n%>                   ! Noun
-%<v%>                   ! 
-%<np%>                  ! 
+%<v%>                   ! Verb
+%<vaux%>                ! Auxiliary
+%<np%>                  ! Proper noun
 %<adj%>
 %<adv%>
 %<postadv%>
