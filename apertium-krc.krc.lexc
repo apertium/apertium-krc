@@ -11,6 +11,7 @@ Multichar_Symbols
 %<abbr%>                ! Abbreviation
 %<post%>                ! Послелог
 %<prn%>
+%<det%>
 %<cop%>
 %<cnjcoo%>
 %<qst%>
@@ -31,6 +32,7 @@ Multichar_Symbols
 %<dem%>
 %<itg%>
 %<ref%>
+%<ind%>
 
 %<ant%>
 %<cog%>
