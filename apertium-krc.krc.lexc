@@ -69,6 +69,7 @@ Multichar_Symbols
 
 %<prc_cond%>            ! -сA
 %<prc_perf%>            ! -Iб
+%<prc_impf%>            ! -E
 %<ger_past%>            ! -GAн
 %<ger_aor%>             ! -Iр
 %<ger%>                 ! -у
