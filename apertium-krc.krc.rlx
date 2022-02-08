@@ -11,8 +11,12 @@ LIST Abl = abl ;
 LIST Loc = loc ;
 
 LIST N = n ;
+LIST V = v ;
+LIST Aux = vaux ;
+
 LIST Attr = attr ;
 
+LIST Prc = prc_perf prc_impf ;
 
 SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
@@ -35,6 +39,16 @@ REMOVE Nom IF
 REMOVE Attr IF
        (0 Nom)
        (NOT 1 N)
+;
+
+REMOVE Aux IF
+       (0 V)
+       (NOT -1 Prc)
+;
+
+REMOVE V IF
+       (0 Aux)
+       (-1 Prc)
 ;
 
 # Resources:
