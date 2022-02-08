@@ -10,6 +10,9 @@ LIST Acc = acc ;
 LIST Abl = abl ;
 LIST Loc = loc ;
 
+LIST N = n ;
+LIST Attr = attr ;
+
 
 SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
@@ -22,6 +25,16 @@ SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
 REMOVE Acc IF
        (0 Gen)
        (1 (px3sp))
+;
+
+REMOVE Nom IF
+       (0 Attr)
+       (1 N)
+;
+
+REMOVE Attr IF
+       (0 Nom)
+       (NOT 1 N)
 ;
 
 # Resources:
