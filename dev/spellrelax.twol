@@ -21,3 +21,6 @@ Rules
 
 "Unify apostrophe styles"
 a => _ ;
+
+"Accept ж for дж word initially"
+д:0 => _ ж ;
