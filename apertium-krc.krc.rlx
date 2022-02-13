@@ -137,6 +137,9 @@ REMOVE V IF
 ;
 
 
+# a couple rules for бла
+SELECT Post IF (-1 N)(0 CC)(1 V);
+SELECT CC IF (-1 N)(0 CC)(1 N);
 
 
 REMOVE VerbalAdjective IF 
