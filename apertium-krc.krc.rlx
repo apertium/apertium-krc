@@ -66,7 +66,7 @@ LIST Prc = prc_perf prc_impf ;
 # Verb sets
 # =========
 
-# LIST FiniteVerb = pres aor past ifi ifi_evid fut fut_plan imp opt pih ;
+LIST FiniteVerb = pres aor past ifi ifi_evid fut fut_plan imp opt pih ;
 LIST V-P3 = (v p3) (vaux p3) (cop p3) ;
 LIST Gerund = ger ger_ppot ger_past ger_perf ger_impf ger_abs ;
 SET V-NotGerund = V - Gerund ;
@@ -163,6 +163,16 @@ REMOVE SUB:1 Cop IF
 REMOVE SUB:1 Cop IF
        (-1 BOS OR MARK) ## Headings or enumerations
        (NOT 1 EOS)
+;
+
+# get rid of ger+cop readings
+# if it can also be a finite verb form
+# and is at the end of the sentence
+# (not strictly correct, but probably okay most of the time)
+REMOVE SUB:1 Cop IF
+       (0 Gerund)
+       (0 FiniteVerb)
+       (1 EOS)
 ;
 
 # Resources:
