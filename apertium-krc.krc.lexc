@@ -76,6 +76,10 @@ Multichar_Symbols
 %<p2%>
 %<p3%>
 
+%<gna_perf%>
+%<gna_after%>
+%<gna_until%>
+%<gna_cond%>
 %<prc_cond%>            ! -сA
 %<prc_perf%>            ! -Iб
 %<prc_impf%>            ! -E
@@ -683,6 +687,10 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<prc_perf%>:%>%{I%}б # ; ! CLIT-GHANA-ETC 
 %<prc_perf%>:%>%{I%}п # ; ! Dir/LR ! Use/Sub
 %<neg%>%<prc_perf%>:%>м%{A%}%>%{E%} # ; ! CLIT-GHANA-ETC 
+
+%<gna_perf%>:%>%{I%}б # ; ! CLIT-GHANA-ETC 
+%<gna_perf%>:%>%{I%}п # ; ! Dir/LR ! Use/Sub
+%<neg%>%<gna_perf%>:%>м%{A%}%>%{E%} # ; ! CLIT-GHANA-ETC 
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
