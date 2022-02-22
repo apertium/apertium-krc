@@ -636,7 +636,12 @@ LEXICON PRON-IND
 %<prn%>%<qnt%>: POSSESSIVES ; 
 !%<prn%>%<qnt%>%<px3sp%>:%>%{s%}%{I%}%{n%} CASES-ETC ;
 
+LEXICON PRON-IND-PL
 
+%<prn%>%<qnt%>: CASES ; 
+%<prn%>%<qnt%>: POSSESSIVES ; 
+%<prn%>%<qnt%>%<pl%>:%>л%{A%}%{р%} CASES ; 
+%<prn%>%<qnt%>%<pl%>:%>л%{A%}%{р%} POSSESSIVES ; 
 
 LEXICON PRON-REFL
 
@@ -990,6 +995,7 @@ LEXICON Pronouns
 къайсы:къай%>сын PRON-ITG-QAYSI ; ! "which" ! Dir/LR
 
 биреу:биреу PRON-IND ; ! "someone"
+башха:башха PRON-IND-PL ; ! "another; someone else"
 
 LEXICON Determiners 
 
@@ -2391,6 +2397,7 @@ LEXICON Nouns
 зонд:зонд N1 ; ! "" ! Loan/rus 
 фонд:фонд N1 ; ! "" ! Loan/rus 
 завод:завод N1 ; ! "" ! Loan/rus 
+залог:залог N1 ; ! "bond, surety" ! Loan/rus 
 водород:водород N1 ; ! "" ! Loan/rus 
 кислород:кислород N1 ; ! "" ! Loan/rus 
 аккорд:аккорд N1 ; ! "" ! Loan/rus 

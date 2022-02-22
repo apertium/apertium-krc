@@ -179,6 +179,18 @@ REMOVE SUB:1 Cop IF
        (1 EOS)
 ;
 
+
+ SECTION # Word-specific stuff
+
+# If башха is pl it's probably better to have the pronoun rading and not the subst adj reading for MT
+
+REMOVE A IF
+       (0 ("башха"i)) 
+       (0 Pron)
+       (0 Subst)
+;
+
+
 # Resources:
 # http://visl.sdu.dk/cg3.html
 # http://groups.google.com/group/constraint-grammar
