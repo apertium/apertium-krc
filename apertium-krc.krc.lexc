@@ -632,16 +632,16 @@ LEXICON PRON-QNT
 
 LEXICON PRON-IND
 
-%<prn%>%<qnt%>: CASES ; 
-%<prn%>%<qnt%>: POSSESSIVES ; 
+%<prn%>%<ind%>: CASES ; 
+%<prn%>%<ind%>: POSSESSIVES ; 
 !%<prn%>%<qnt%>%<px3sp%>:%>%{s%}%{I%}%{n%} CASES-ETC ;
 
 LEXICON PRON-IND-PL
 
-%<prn%>%<qnt%>: CASES ; 
-%<prn%>%<qnt%>: POSSESSIVES ; 
-%<prn%>%<qnt%>%<pl%>:%>л%{A%}%{р%} CASES ; 
-%<prn%>%<qnt%>%<pl%>:%>л%{A%}%{р%} POSSESSIVES ; 
+%<prn%>%<ind%>: CASES ; 
+%<prn%>%<ind%>: POSSESSIVES ; 
+%<prn%>%<ind%>%<pl%>:%>л%{A%}%{р%} CASES ; 
+%<prn%>%<ind%>%<pl%>:%>л%{A%}%{р%} POSSESSIVES ; 
 
 LEXICON PRON-REFL
 
