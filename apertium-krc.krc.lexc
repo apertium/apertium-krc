@@ -9702,8 +9702,7 @@ LEXICON Verbs
 черт:черт V-TV-AR ; ! "" ! Inf/чертерге
 черт:черт V-TV ; ! "" ! Inf/чертерге ! Dir/LR
 
-тюш:тюш V-IV ; ! "падать" ! Inf/тюшерге
-тюшюр:тюшюр V-TV ; ! "" ! Inf/тюшюрюрге
+тюшюр:тюшюр V-TV ; ! "" ! Inf/тюшюрюрге Der/Caus
 
 юйлен:юйлен V-IV ; ! "жениться" ! Inf/юйленирге
 
@@ -9772,6 +9771,7 @@ LEXICON Verbs
 тёле:тёле V-TV ; ! ""
 ийнан:ийнан V-IV ; ! "believe"
 ий:ий V-TV ; ! "spit"
+уч:уч V-TV-AR ; ! "fly"
 
 LEXICON Interjections 
 
