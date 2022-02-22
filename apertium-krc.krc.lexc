@@ -997,6 +997,7 @@ LEXICON Determiners
 ол:ол DET-DEM ; ! "that"
 
 бютеу:бютеу DET-QNT ; ! "весь"
+бютеу:битеу DET-QNT ; ! "all, entire" ! Dir/LR ! Use/Sub
 бютеулей:бютеулей DET-QNT ; ! "весь"
 талай:талай DET-QNT ; ! "много" "many; much"
 аз:аз DET-QNT ; ! "малый" "few; little"
