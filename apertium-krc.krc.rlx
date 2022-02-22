@@ -73,6 +73,7 @@ SET V-NotGerund = V - Gerund ;
 LIST Participle = prc_perf prc_impf prc_cond prc_vol prc_plan ;
 LIST VerbalAdverb = gna_perf gna_cond gna_until gna_after ;
 LIST VerbalAdjective = gpr_past gpr_fut gpr_pot gpr_impf ;
+LIST SubstPl = (subst pl) ;
 
 # All possible word categories
 # ============================
@@ -156,6 +157,12 @@ SELECT Participle IF
        (1 Vaux)
 ;
 
+# if ambiguous between prn and adj (e.g. башха) and it has copula, probably adj
+REMOVE Pron IF
+       (0 A)
+       (0/1 Cop)
+;
+
 # ======= #
   SECTION # Copulas
 # ======= #
@@ -187,7 +194,7 @@ REMOVE SUB:1 Cop IF
 REMOVE A IF
        (0 ("башха"i)) 
        (0 Pron)
-       (0 Subst)
+       (0 SubstPl)
 ;
 
 
