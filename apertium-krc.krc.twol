@@ -201,7 +201,7 @@ Rules
 !@ т ю б >:0 {s}:0 {I}:ю {n}:0
 
 "{I} as у after back rounded vowels"
-%{I%}:у <=> [ [ [ :BackVow | :Cns | .#. ] :у ] | :о ] [ [ :у | :Cns ] :Cns* ]/[ [ :0 - [ AbsVow: | %{n%}: ] ] | :ь | :ъ | %{ъ%}: ]* _ ;
+%{I%}:у <=> [ [ [ :BackVow | [ :Cns (:ъ) ] | .#. ] :у ] | :о ] [ [ :у | :Cns ] :Cns* ]/[ [ :0 - [ AbsVow: | %{n%}: ] ] | :ь | :ъ | %{ъ%}: ]* _ ;
             [ %{I%}:у :Cns+ ]/[ :0 - %{ь%}: ]* _ ;
             %{о%}: [ [ :0 - AbsVow: ] | :Cns | %-: ]* _ ; ! for numerals and abbreviations
             [ \[ :AmbigVow | :FrontVow ] :BackVow :ю :Cns+ ]/[ :0 - AbsVow: ]* _ ; ! союзну
@@ -281,7 +281,7 @@ Rules
             AbsVow: [ [ :0 - AbsVow: ] | :Cns | %-: ]* _ ; 
 
 				! avoid conflict with {I}:у 
-            [ [ [ :BackVow | :Cns | .#. ] :у ] | :о ] [ [ :у | :Cns ] :Cns* ]/[ [ :0 - [ %{n%}: ] ] | :ь | :ъ | %{ъ%}: ]* _ ;  
+            [ [ [ :BackVow | [ :Cns (:ъ) ] | .#. ] :у ] | :о ] [ [ :у | :Cns ] :Cns* ]/[ [ :0 - [ AbsVow: | %{n%}: ] ] | :ь | :ъ | %{ъ%}: ]* _ ;  
             [ :BackVow :ю :Cns+ ]/:0* _ ; ! союзну
             [ :BackVow ] :у/[ :0 - [ AbsVow: | %{s%}: ] | %{ь%}: ]* _ ;
 
